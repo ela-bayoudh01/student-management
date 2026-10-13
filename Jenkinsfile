@@ -14,7 +14,7 @@ pipeline {
         stage('Commit') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<TON_USER>/student-management.git'
+                    url: 'https://github.com/ela-bayoudh01/student-management.git'
                 // dernier commit : hash court - auteur - message
                 sh 'git log -1 --pretty=format:"%h - %an - %s"'
             }
