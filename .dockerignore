@@ -1,0 +1,4 @@
+# Tout exclure par défaut...
+*
+# ...puis réinclure uniquement ce dont le Dockerfile a besoin
+!target/*.jar
